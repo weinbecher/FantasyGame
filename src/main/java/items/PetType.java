@@ -14,6 +14,7 @@ public enum PetType {
         this.defenceValue = defenceValue;
     }
 
+
     public int getDefenceValue() {
         return defenceValue;
     }

@@ -17,4 +17,8 @@ public class HumanPlayer extends Character{
     public ArrayList<Item> getItems() {
         return new ArrayList<Item>(items);
     }
+
+    public void addItems(Item item) {
+        items.add(item);
+    }
 }

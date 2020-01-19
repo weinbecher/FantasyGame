@@ -4,7 +4,7 @@ import behaivours.ICast;
 
 public class Spell implements ICast {
     private SpellType spell;
-    Spell(SpellType spell){
+    public Spell(SpellType spell){
         this.spell = spell;
     }
 

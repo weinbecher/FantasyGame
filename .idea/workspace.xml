@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eaf6105-3726-44f8-b280-00b719535609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HumanPlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/items/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/items/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/WeaponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/WeaponType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MagicianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MagicianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Magician.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Magician.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Pet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/PetType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/PetType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Spell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MagicianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MagicianTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +57,51 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.MagicianTest.hasHealthPoints">
-    <configuration name="MagicianTest.hasHealthPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HumanPlayerTest">
+    <configuration name="HumanPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicianTest.canAddItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThimbleWood" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MagicianTest" />
-      <option name="METHOD_NAME" value="hasHealthPoints" />
+      <option name="METHOD_NAME" value="canAddItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagicianTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagicianTest.hasArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThimbleWood" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MagicianTest" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="METHOD_NAME" value="hasArmour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicianTest.hasItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MagicianTest" />
+      <option name="METHOD_NAME" value="hasItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicianTest.hasSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MagicianTest" />
+      <option name="METHOD_NAME" value="hasSpell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,8 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MagicianTest.hasHealthPoints" />
-        <item itemvalue="JUnit.MagicianTest.hasName" />
+        <item itemvalue="JUnit.HumanPlayerTest" />
+        <item itemvalue="JUnit.MagicianTest.canAddItems" />
+        <item itemvalue="JUnit.MagicianTest.hasItems" />
+        <item itemvalue="JUnit.MagicianTest.hasSpell" />
+        <item itemvalue="JUnit.MagicianTest.hasArmour" />
       </list>
     </recent_temporary>
   </component>
@@ -99,30 +143,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1579301007591">
-      <screen x="0" y="23" width="1344" height="736" />
+    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1579454113440">
+      <screen x="0" y="23" width="1344" height="743" />
     </state>
     <state x="485" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1344.736@0.23.1344.736" timestamp="1579301007591" />
     <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser/0.23.1344.740@0.23.1344.740" timestamp="1579281600447" />
+    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser/0.23.1344.743@0.23.1344.743" timestamp="1579454113440" />
     <state x="216" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579297088802">
       <screen x="0" y="23" width="1344" height="736" />
     </state>
     <state x="216" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1344.736@0.23.1344.736" timestamp="1579297088802" />
-    <state width="1302" height="183" key="GridCell.Tab.0.bottom" timestamp="1579448854430">
-      <screen x="0" y="23" width="1344" height="745" />
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom" timestamp="1579454369493">
+      <screen x="0" y="23" width="1344" height="743" />
     </state>
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.743@0.23.1344.743" timestamp="1579454369493" />
     <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
-    <state width="1302" height="183" key="GridCell.Tab.0.center" timestamp="1579448854430">
-      <screen x="0" y="23" width="1344" height="745" />
+    <state width="1302" height="183" key="GridCell.Tab.0.center" timestamp="1579454369492">
+      <screen x="0" y="23" width="1344" height="743" />
     </state>
+    <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.743@0.23.1344.743" timestamp="1579454369492" />
     <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
-    <state width="1302" height="183" key="GridCell.Tab.0.left" timestamp="1579448854429">
-      <screen x="0" y="23" width="1344" height="745" />
+    <state width="1302" height="183" key="GridCell.Tab.0.left" timestamp="1579454369492">
+      <screen x="0" y="23" width="1344" height="743" />
     </state>
+    <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.743@0.23.1344.743" timestamp="1579454369492" />
     <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.745@0.23.1344.745" timestamp="1579448854429" />
-    <state width="1302" height="183" key="GridCell.Tab.0.right" timestamp="1579448854430">
-      <screen x="0" y="23" width="1344" height="745" />
+    <state width="1302" height="183" key="GridCell.Tab.0.right" timestamp="1579454369493">
+      <screen x="0" y="23" width="1344" height="743" />
     </state>
+    <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.743@0.23.1344.743" timestamp="1579454369493" />
     <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
     <state x="100" y="128" width="1144" height="535" key="dock-window-1" timestamp="1579270631103">
       <screen x="0" y="23" width="1344" height="736" />

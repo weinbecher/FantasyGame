@@ -17,4 +17,8 @@ public class Magician extends HumanPlayer{
 
         this.spell = spell;
     }
+
+    public ICast getSpell() {
+        return this.spell;
+    }
 }

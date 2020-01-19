@@ -11,6 +11,10 @@ public class Pet implements IEquip {
         this.healthPoints = healthPoints;
     }
 
+    public PetType getPetType(){
+        return this.petType;
+    }
+
     public int getPetDefenceValue(){
         return petType.getDefenceValue();
     }
