@@ -26,7 +26,7 @@ public class Character {
     }
 
     public int getHealthPoints() {
-        return this.healthPoints;
+        return healthPoints;
     }
 
     public int getManaPoints() {
@@ -47,5 +47,18 @@ public class Character {
 
     public Armour getArmour() {
         return armour;
+    }
+
+    public void setHealthPoints(int newHealthPoints) {
+        this.healthPoints = newHealthPoints;
+
+    }
+
+    public void armourStopDamage() {
+       this.healthPoints += armour.getArmourDefenseValue();
+    }
+
+    public Boolean hasPet(){
+        this.equipped instanceof ;
     }
 }

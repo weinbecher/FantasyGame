@@ -1,5 +1,8 @@
 package behaivours;
 
+import characters.Character;
+
 public interface ICast {
-    public void cast();
+
+    void cast(Character target);
 }

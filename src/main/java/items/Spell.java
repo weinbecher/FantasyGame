@@ -1,6 +1,7 @@
 package items;
 
 import behaivours.ICast;
+import characters.Character;
 
 public class Spell implements ICast {
     private SpellType spell;
@@ -24,7 +25,9 @@ public class Spell implements ICast {
         return spell.getManaCost();
     }
 
-    public void cast() {
-
+    public void cast(Character target) {
+        int targetHealthPoints = target.getHealthPoints();
+        targetHealthPoints -= spell.getAttackValue();
+        target.setHealthPoints(targetHealthPoints);
     }
 }

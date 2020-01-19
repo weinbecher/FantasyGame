@@ -1,6 +1,8 @@
 package characters;
+import characters.Character;
 import behaivours.ICast;
 import behaivours.IEquip;
+import behaivours.IHeal;
 import items.Armour;
 import items.Spell;
 
@@ -20,5 +22,12 @@ public class Magician extends HumanPlayer{
 
     public ICast getSpell() {
         return this.spell;
+    }
+
+    public void cast(Character target) {
+        if(spell instanceof ICast){
+            ((ICast)spell).cast(target);
+            target.armourStopDamage();
+        }
     }
 }

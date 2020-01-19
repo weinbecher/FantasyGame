@@ -2,7 +2,7 @@ package items;
 
 import behaivours.ICast;
 
-public enum SpellType implements ICast {
+public enum SpellType {
     CURSE(50,0,-10),
     FIREBALL(30,20,-5),
     PORTAL(0,200,-20),
@@ -30,6 +30,4 @@ public enum SpellType implements ICast {
         return manaCost;
     }
 
-    public void cast() {
-    }
 }

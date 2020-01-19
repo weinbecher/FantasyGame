@@ -81,11 +81,26 @@ public class HumanPlayerTest {
         assertEquals(sword,welsh.getEquipped());
     }
 
+
     @Test
     public void canFightWithWeapon(){
         welsh.wield(cleric);
-        assertEquals(160, cleric.getHealthPoints());
+        assertEquals(175, cleric.getHealthPoints());
     }
+
+    @Test
+    public void canHealWithCure(){
+        welsh.wield(cleric);
+        cleric.heal(cleric);
+        assertEquals(275,cleric.getHealthPoints());
+    }
+
+    @Test
+    public void canNotWeildWithCure(){
+        cleric.wield(welsh);
+        assertEquals(2000,welsh.getHealthPoints());
+    }
+
 
 }
 

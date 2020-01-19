@@ -1,6 +1,8 @@
 package characters;
 
 import behaivours.IEquip;
+import behaivours.IHeal;
+import behaivours.IWield;
 import items.Armour;
 import items.Item;
 import items.Weapon;
@@ -24,9 +26,25 @@ public class HumanPlayer extends Character{
     }
 
 
-    public int wield(Character enemy) {
-        //int enemyHealthPoint = enemy.getHealthPoints();
-        int enemyHealthPoint = enemy.getHealthPoints() - ((Weapon)getEquipped()).getWeaponTypeDamage();
-        return enemyHealthPoint;
+    public void wield(Character target) {
+        IEquip weapon = getEquipped();
+        if (weapon instanceof IWield){
+            ((IWield) weapon).wield(target);
+
+            if( target.getEquipped()   )
+
+            target.armourStopDamage();
+        }
     }
+
+    public void heal(Character target){
+        IEquip cure = getEquipped();
+        if(cure instanceof IHeal){
+            ((IHeal)cure).heal(target);
+        };
+    }
+
 }
+
+
+
