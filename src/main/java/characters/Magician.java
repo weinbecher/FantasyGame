@@ -4,6 +4,7 @@ import behaivours.ICast;
 import behaivours.IEquip;
 import behaivours.IHeal;
 import items.Armour;
+import items.Pet;
 import items.Spell;
 
 import java.util.ArrayList;
@@ -30,4 +31,16 @@ public class Magician extends HumanPlayer{
             target.armourStopDamage();
         }
     }
+
+
+    public void changeSpell(ICast newSpell) {
+        this.spell = newSpell;
+    }
+
+    public void petStopDamage(){
+        Pet pet = ((Pet)getEquipped());
+        int healthPoints =  getHealthPoints();
+        healthPoints += pet.getPetDefenceValue();
+    }
+
 }

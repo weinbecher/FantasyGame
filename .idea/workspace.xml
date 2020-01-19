@@ -2,30 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eaf6105-3726-44f8-b280-00b719535609" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaivours/ICast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaivours/ICast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaivours/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaivours/IHeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaivours/IWield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaivours/IWield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaivours/IGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaivours/IGenerate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/CharacterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/CharacterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Cure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Cure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/SpellType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/SpellType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HumanPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HumanPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MagicianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MagicianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaivours/ICast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaivours/ICast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaivours/IHeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaivours/IHeal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/behaivours/IWield.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaivours/IWield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaivours/IGenerate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaivours/IGenerate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/CharacterType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/CharacterType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/ComputerPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/HumanPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Magician.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Magician.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/Cure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Cure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/SpellType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/SpellType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/items/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Weapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HumanPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HumanPlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/items/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MagicianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MagicianTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +49,6 @@
   <component name="ProjectId" id="1WWekG92nwUt3K4PTVeKEhhY8wW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,42 +56,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.MagicianTest.canCast">
+  <component name="RunManager" selected="JUnit.MagicianTest.petCanDefend">
     <configuration name="HumanPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThimbleWood" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HumanPlayerTest.canFightWithWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThimbleWood" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
-      <option name="METHOD_NAME" value="canFightWithWeapon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HumanPlayerTest.canHealWithCure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThimbleWood" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
-      <option name="METHOD_NAME" value="canHealWithCure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HumanPlayerTest.canNotWeildWithCure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThimbleWood" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HumanPlayerTest" />
-      <option name="METHOD_NAME" value="canNotWeildWithCure" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,13 +76,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MagicianTest.canChangeSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MagicianTest" />
+      <option name="METHOD_NAME" value="canChangeSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicianTest.petCanDefend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MagicianTest" />
+      <option name="METHOD_NAME" value="petCanDefend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.collectTreasureAfterKillingEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThimbleWood" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="collectTreasureAfterKillingEnemy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MagicianTest.petCanDefend" />
+        <item itemvalue="JUnit.MagicianTest.canChangeSpell" />
         <item itemvalue="JUnit.MagicianTest.canCast" />
         <item itemvalue="JUnit.HumanPlayerTest" />
-        <item itemvalue="JUnit.HumanPlayerTest.canNotWeildWithCure" />
-        <item itemvalue="JUnit.HumanPlayerTest.canHealWithCure" />
-        <item itemvalue="JUnit.HumanPlayerTest.canFightWithWeapon" />
+        <item itemvalue="JUnit.RoomTest.collectTreasureAfterKillingEnemy" />
       </list>
     </recent_temporary>
   </component>
@@ -153,59 +146,67 @@
       <screen x="0" y="23" width="1344" height="743" />
     </state>
     <state x="100" y="123" width="1144" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1344.743@0.23.1344.743" timestamp="1579454798104" />
-    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1579462792620">
+    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1579467227997">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
     <state x="485" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1344.736@0.23.1344.736" timestamp="1579301007591" />
-    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser/0.23.1344.740@0.23.1344.740" timestamp="1579462792620" />
+    <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser/0.23.1344.740@0.23.1344.740" timestamp="1579467227997" />
     <state x="485" y="118" key="#com.intellij.ide.util.MemberChooser/0.23.1344.743@0.23.1344.743" timestamp="1579459489853" />
     <state x="216" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579297088802">
       <screen x="0" y="23" width="1344" height="736" />
     </state>
     <state x="216" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1344.736@0.23.1344.736" timestamp="1579297088802" />
-    <state width="1302" height="183" key="GridCell.Tab.0.bottom" timestamp="1579463677059">
+    <state x="216" y="23" key="CommitChangelistDialog2" timestamp="1579469651955">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1579463677059" />
+    <state x="216" y="23" key="CommitChangelistDialog2/0.23.1344.740@0.23.1344.740" timestamp="1579469651955" />
+    <state x="100" y="123" width="1144" height="535" key="DiffContextDialog" timestamp="1579469759007">
+      <screen x="0" y="23" width="1344" height="740" />
+    </state>
+    <state x="100" y="123" width="1144" height="535" key="DiffContextDialog/0.23.1344.740@0.23.1344.740" timestamp="1579469759007" />
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom" timestamp="1579470443761">
+      <screen x="0" y="23" width="1344" height="740" />
+    </state>
+    <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.740@0.23.1344.740" timestamp="1579470443761" />
     <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.743@0.23.1344.743" timestamp="1579459959332" />
     <state width="1302" height="183" key="GridCell.Tab.0.bottom/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
-    <state width="1302" height="183" key="GridCell.Tab.0.center" timestamp="1579463677058">
+    <state width="1302" height="183" key="GridCell.Tab.0.center" timestamp="1579470443760">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1579463677058" />
+    <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.740@0.23.1344.740" timestamp="1579470443760" />
     <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.743@0.23.1344.743" timestamp="1579459959331" />
     <state width="1302" height="183" key="GridCell.Tab.0.center/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
-    <state width="1302" height="183" key="GridCell.Tab.0.left" timestamp="1579463677058">
+    <state width="1302" height="183" key="GridCell.Tab.0.left" timestamp="1579470443760">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1579463677058" />
+    <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.740@0.23.1344.740" timestamp="1579470443760" />
     <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.743@0.23.1344.743" timestamp="1579459959331" />
     <state width="1302" height="183" key="GridCell.Tab.0.left/0.23.1344.745@0.23.1344.745" timestamp="1579448854429" />
-    <state width="1302" height="183" key="GridCell.Tab.0.right" timestamp="1579463677059">
+    <state width="1302" height="183" key="GridCell.Tab.0.right" timestamp="1579470443761">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1579463677059" />
+    <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.740@0.23.1344.740" timestamp="1579470443761" />
     <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.743@0.23.1344.743" timestamp="1579459959332" />
     <state width="1302" height="183" key="GridCell.Tab.0.right/0.23.1344.745@0.23.1344.745" timestamp="1579448854430" />
-    <state width="1302" height="235" key="GridCell.Tab.1.bottom" timestamp="1579463676726">
+    <state width="1302" height="235" key="GridCell.Tab.1.bottom" timestamp="1579470045995">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="235" key="GridCell.Tab.1.bottom/0.23.1344.740@0.23.1344.740" timestamp="1579463676726" />
+    <state width="1302" height="235" key="GridCell.Tab.1.bottom/0.23.1344.740@0.23.1344.740" timestamp="1579470045995" />
     <state width="1302" height="227" key="GridCell.Tab.1.bottom/0.23.1344.743@0.23.1344.743" timestamp="1579459185056" />
-    <state width="1302" height="235" key="GridCell.Tab.1.center" timestamp="1579463676725">
+    <state width="1302" height="235" key="GridCell.Tab.1.center" timestamp="1579470045995">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="235" key="GridCell.Tab.1.center/0.23.1344.740@0.23.1344.740" timestamp="1579463676725" />
+    <state width="1302" height="235" key="GridCell.Tab.1.center/0.23.1344.740@0.23.1344.740" timestamp="1579470045995" />
     <state width="1302" height="227" key="GridCell.Tab.1.center/0.23.1344.743@0.23.1344.743" timestamp="1579459185056" />
-    <state width="1302" height="235" key="GridCell.Tab.1.left" timestamp="1579463676725">
+    <state width="1302" height="235" key="GridCell.Tab.1.left" timestamp="1579470045994">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="235" key="GridCell.Tab.1.left/0.23.1344.740@0.23.1344.740" timestamp="1579463676725" />
+    <state width="1302" height="235" key="GridCell.Tab.1.left/0.23.1344.740@0.23.1344.740" timestamp="1579470045994" />
     <state width="1302" height="227" key="GridCell.Tab.1.left/0.23.1344.743@0.23.1344.743" timestamp="1579459185056" />
-    <state width="1302" height="235" key="GridCell.Tab.1.right" timestamp="1579463676725">
+    <state width="1302" height="235" key="GridCell.Tab.1.right" timestamp="1579470045995">
       <screen x="0" y="23" width="1344" height="740" />
     </state>
-    <state width="1302" height="235" key="GridCell.Tab.1.right/0.23.1344.740@0.23.1344.740" timestamp="1579463676725" />
+    <state width="1302" height="235" key="GridCell.Tab.1.right/0.23.1344.740@0.23.1344.740" timestamp="1579470045995" />
     <state width="1302" height="227" key="GridCell.Tab.1.right/0.23.1344.743@0.23.1344.743" timestamp="1579459185056" />
     <state x="100" y="128" width="1144" height="535" key="dock-window-1" timestamp="1579270631103">
       <screen x="0" y="23" width="1344" height="736" />

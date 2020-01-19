@@ -5,7 +5,6 @@ import behaivours.IHeal;
 import behaivours.IWield;
 import items.Armour;
 import items.Item;
-import items.Weapon;
 
 import java.util.ArrayList;
 
@@ -30,10 +29,11 @@ public class HumanPlayer extends Character{
         IEquip weapon = getEquipped();
         if (weapon instanceof IWield){
             ((IWield) weapon).wield(target);
-
-            if( target.getEquipped()   )
-
             target.armourStopDamage();
+        }
+
+        if (target instanceof Magician){
+            ((Magician)target).petStopDamage();
         }
     }
 

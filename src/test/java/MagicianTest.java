@@ -1,5 +1,6 @@
 import behaivours.ICast;
 import behaivours.IEquip;
+import behaivours.IWield;
 import characters.CharacterType;
 import characters.HumanPlayer;
 import characters.Magician;
@@ -19,6 +20,7 @@ public class MagicianTest {
     Armour feltArmour;
     IEquip hamster;
     ICast curse;
+    ICast portal;
     Item coffee;
 
 
@@ -26,7 +28,9 @@ public class MagicianTest {
     public void before(){
         diamondArmour = new Armour(ArmourType.DIAMOND);
         feltArmour = new Armour(ArmourType.FELT);
+        hammer = new Weapon(WeaponType.HAMMER);
         hamster = new Pet(PetType.HAMSTER,100);
+        portal = new Spell(SpellType.PORTAL);
         curse = new Spell(SpellType.CURSE);
         coffee = new Item(10,30,10);
         welsh = new HumanPlayer("Nate",2000,500,CharacterType.WELSH, hammer,feltArmour);
@@ -46,9 +50,18 @@ public class MagicianTest {
     }
 
     @Test
+    public void canChangeSpell(){
+        magician.changeSpell(portal);
+        assertEquals(portal,magician.getSpell());
+    }
+
+    @Test
     public void petCanDefend(){
         welsh.wield(magician);
+        welsh.wield(welsh);
         assertEquals(500,magician.getHealthPoints());
+        assertEquals(1965,welsh.getHealthPoints());
+
     }
 
 

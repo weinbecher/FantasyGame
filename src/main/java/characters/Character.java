@@ -3,7 +3,7 @@ package characters;
 import behaivours.IEquip;
 import items.Armour;
 
-public class Character {
+public abstract class Character {
     private String name;
     private int healthPoints;
     private int manaPoints;
@@ -58,7 +58,4 @@ public class Character {
        this.healthPoints += armour.getArmourDefenseValue();
     }
 
-    public Boolean hasPet(){
-        this.equipped instanceof ;
-    }
 }
