@@ -1,23 +1,17 @@
 package items;
 
 public enum PetType {
-    HAMSTER(300,10),
-    DUCK(200,20),
-    RABBIT(200,30),
-    DRAGON(1000,50),
-    RAVEN(200,30),
-    SNAKE(100,200);
+    HAMSTER(10),
+    DUCK(20),
+    RABBIT(30),
+    DRAGON(50),
+    RAVEN(30),
+    SNAKE(20);
 
-    private int healthPoints;
     private int defenceValue;
 
-    PetType(int healthPoints, int defenceValue){
-        this.healthPoints = healthPoints;
+    PetType(int defenceValue){
         this.defenceValue = defenceValue;
-    }
-
-    public int getHealthPoints() {
-        return healthPoints;
     }
 
     public int getDefenceValue() {

@@ -10,9 +10,10 @@ public class Magician extends HumanPlayer{
     private ICast spell;
 
 
-    public Magician(String name, int healthPoints, CharacterType characterType, IEquip equipped, Armour armour,
+    public Magician(String name, int healthPoints, int manaPoints,CharacterType characterType, IEquip equipped,
+                    Armour armour,
                     ICast spell) {
-        super(name, healthPoints, characterType, equipped, armour);
+        super(name, healthPoints, manaPoints,characterType, equipped, armour);
 
         this.spell = spell;
     }
