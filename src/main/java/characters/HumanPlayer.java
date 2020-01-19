@@ -3,6 +3,7 @@ package characters;
 import behaivours.IEquip;
 import items.Armour;
 import items.Item;
+import items.Weapon;
 
 import java.util.ArrayList;
 
@@ -20,5 +21,12 @@ public class HumanPlayer extends Character{
 
     public void addItems(Item item) {
         items.add(item);
+    }
+
+
+    public int wield(Character enemy) {
+        //int enemyHealthPoint = enemy.getHealthPoints();
+        int enemyHealthPoint = enemy.getHealthPoints() - ((Weapon)getEquipped()).getWeaponTypeDamage();
+        return enemyHealthPoint;
     }
 }

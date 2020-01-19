@@ -26,7 +26,7 @@ public class Character {
     }
 
     public int getHealthPoints() {
-        return healthPoints;
+        return this.healthPoints;
     }
 
     public int getManaPoints() {
@@ -38,7 +38,11 @@ public class Character {
     }
 
     public IEquip getEquipped() {
-        return equipped;
+        return this.equipped;
+    }
+
+    public void setEquipped(IEquip equipped) {
+        this.equipped = equipped;
     }
 
     public Armour getArmour() {
